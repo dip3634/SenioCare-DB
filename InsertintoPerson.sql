@@ -1,0 +1,1 @@
+\copy "Person"("PersonId","FirstName","LastName","Address","DateofBirth","Email","PhoneNumber","SSN") FROM 'StructuredDatatoWrite.txt' ( DELIMITER('$') );
