@@ -88,8 +88,8 @@ public class DataBeautify {
 
 	static void DOB(List<List<String>> data) {
 		for (List<String> eachData:data)
-			eachData.add(String.valueOf(ThreadLocalRandom.current().nextInt(1, 29)) + "-"
-					+ String.valueOf(ThreadLocalRandom.current().nextInt(1, 13)) + "-"
+			eachData.add(String.valueOf(ThreadLocalRandom.current().nextInt(1, 13)) + "-"
+					+ String.valueOf(ThreadLocalRandom.current().nextInt(1, 29)) + "-"
 					+ String.valueOf(ThreadLocalRandom.current().nextInt(1950, 1999)));
 	}
 }
