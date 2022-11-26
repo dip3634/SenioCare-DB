@@ -40,7 +40,7 @@ public class DataBeautify {
 	@SuppressWarnings("resource")
 	static void namesandAddress(List<List<String>> data, int num) throws IOException {
 		BufferedReader br;
-		br = new BufferedReader(new FileReader("D:\\SQLTest\\BigDataFromGit.txt"));
+		br = new BufferedReader(new FileReader("../../../SenioCare-DB/BigDataFromGit.txt"));
 		String line = "";
 		String name = "", address = "";
 		int i = 0;
@@ -92,9 +92,4 @@ public class DataBeautify {
 					+ String.valueOf(ThreadLocalRandom.current().nextInt(1, 13)) + "-"
 					+ String.valueOf(ThreadLocalRandom.current().nextInt(1950, 1999)));
 	}
-	
-	static void writetoFile() {
-		
-	}
-
 }
